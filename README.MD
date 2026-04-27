@@ -14,7 +14,12 @@ No Node.js, no Python, no frameworks — just shell scripts.
 ### Install a hook
 
 Currently, there is only one hook. There could be more.
+```bash
+curl -sL https://raw.githubusercontent.com/practicesavedtheworld/rawghooks/main/hooks/posix/install.sh \
+  | sh -s commit-msg
+```
 
+or
 ```bash
 curl -fsSL https://raw.githubusercontent.com/practicesavedtheworld/rawghooks/main/hooks/posix/commit-msg.sh \
   -o .git/hooks/commit-msg
