@@ -26,5 +26,5 @@ curl -fsSL https://raw.githubusercontent.com/practicesavedtheworld/rawghooks/mai
 ```
 A hook is used for cleaner commits.
 
-## Licence
+## License
 MIT
